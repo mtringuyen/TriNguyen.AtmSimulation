@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriNguyen.AtmSimulation.Web", "TriNguyen.AtmSimulation.Web\TriNguyen.AtmSimulation.Web.csproj", "{C9115656-531E-448C-9F89-73C2EB67DCBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriNguyen.AtmSimulation.Core", "TriNguyen.AtmSimulation\TriNguyen.AtmSimulation.Core.csproj", "{7E82FFF9-22C8-4F11-A0BA-77AF312565ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriNguyen.AtmSimulation.Infrastructure", "TriNguyen.AtmSimulation.Infrastructure\TriNguyen.AtmSimulation.Infrastructure.csproj", "{3FEFF110-AA22-4C34-88E4-D1E4427D0A9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriNguyen.AtmSimulation.SharedKernel", "TriNguyen.AtmSimulation.SharedKernel\TriNguyen.AtmSimulation.SharedKernel.csproj", "{F9C48596-D45C-46B6-AD7C-6D6740C8CE06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9115656-531E-448C-9F89-73C2EB67DCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9115656-531E-448C-9F89-73C2EB67DCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9115656-531E-448C-9F89-73C2EB67DCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9115656-531E-448C-9F89-73C2EB67DCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E82FFF9-22C8-4F11-A0BA-77AF312565ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E82FFF9-22C8-4F11-A0BA-77AF312565ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E82FFF9-22C8-4F11-A0BA-77AF312565ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E82FFF9-22C8-4F11-A0BA-77AF312565ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FEFF110-AA22-4C34-88E4-D1E4427D0A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEFF110-AA22-4C34-88E4-D1E4427D0A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEFF110-AA22-4C34-88E4-D1E4427D0A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEFF110-AA22-4C34-88E4-D1E4427D0A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C48596-D45C-46B6-AD7C-6D6740C8CE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C48596-D45C-46B6-AD7C-6D6740C8CE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C48596-D45C-46B6-AD7C-6D6740C8CE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C48596-D45C-46B6-AD7C-6D6740C8CE06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0627EC0-1A43-4FC5-9CD7-7E935DEF50D1}
+	EndGlobalSection
+EndGlobal
