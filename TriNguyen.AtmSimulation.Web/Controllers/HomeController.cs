@@ -29,7 +29,9 @@ namespace TriNguyen.AtmSimulation.Web.Controllers
 
         public IActionResult Index()
         {
-            var items = _repository.List<Account>()
+            var userId = int.Parse(HttpContext.User.Claims.First(c => c.Type == ClaimTypes.NameIdentifier).Value);
+
+            var items = _repository.List<Account>().Where(a => a.UserId == userId)
                             .Select(AccountDTO.FromAccount).ToList();
             return View(items);
         }
